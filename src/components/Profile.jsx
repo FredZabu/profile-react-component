@@ -15,7 +15,7 @@ function Profile() {
       <p className='font-bold text-lg mt-1'>{PERSON.personName}</p>
       <p className='font-bold text-xs mt-0.5'>{PERSON.job}</p>
       <p className='text-gray-700 text-xs mt-0.5'>{PERSON.email}</p>
-      <div className="infor mt-4 flex justify-between">
+      <div className="infor mt-5 flex justify-between">
         <div className="posts flex flex-col items-center text-gray-700 text-sm font-light">
           <p>{PERSON.posts}</p>
           <p>Posts</p>
@@ -29,8 +29,8 @@ function Profile() {
           <p>Following</p>
         </div>
       </div>
-      <hr className='mt-4 h-0.5 bg-gray-400'/>
-      <div className="media-section mt-4">
+      <hr className='mt-5 h-0.5 bg-gray-400'/>
+      <div className="media-section mt-5">
         <p className='font-bold text-sm'>Media Files</p>
         <div className="media-content grid grid-cols-3 gap-2 mt-4" >
           {personMedia}
